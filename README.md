@@ -16,6 +16,12 @@ The project is not super impressive, but I am still happy with it,after this is 
 Non-stop coding, Non-stop loving.
 
 ![alt text](https://github.com/GK67/AndroidApplications/blob/feature-branch/DrawExample.png?raw=true)
+
+Second Project is Calculator, the calculater is really simply just calculate two number in {  + - * / }
+Keep refresh my memory about Android studio, from this project, I remembered use Log.d to debug the program, which is really helpful.
+The first version of project just finished in few hours, and later on will expand more functions I will.
+
 ![alt text](https://github.com/GK67/AndroidApplications/blob/feature-branch/Calculator1.png?raw=true)
+
 ![alt text](https://github.com/GK67/AndroidApplications/blob/feature-branch/Calculator2.png?raw=true)
 
