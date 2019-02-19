@@ -16,3 +16,6 @@ The project is not super impressive, but I am still happy with it,after this is 
 Non-stop coding, Non-stop loving.
 
 ![alt text](https://github.com/GK67/AndroidApplications/blob/feature-branch/DrawExample.png?raw=true)
+![alt text](https://github.com/GK67/AndroidApplications/blob/feature-branch/Calculator1.png?raw=true)
+![alt text](https://github.com/GK67/AndroidApplications/blob/feature-branch/Calculator2.png?raw=true)
+
