@@ -10,3 +10,9 @@ So I made several stupid ways to achrive the "Menu Part", like adding buttons in
 As result, the interface looks so ugly, on other side, without tutorial, I keep recalling the memmory about android develop like adding views by Id, some layout example/difference btween each type, and click listener function...etc
 
 I was trying to a floating Menu button, but I didn't find the component in the android studio default library, I have searched few solutions they all likely to use outside(thirdParty) library or API, which is not my goal of this project.
+
+The project is not super impressive, but I am still happy with it.
+
+Non-stop coding, Non-stop loving.
+
+![alt text](https://github.com/GK67/AndroidApplications/blob/feature-branch/DrawExample.png?raw=true)
