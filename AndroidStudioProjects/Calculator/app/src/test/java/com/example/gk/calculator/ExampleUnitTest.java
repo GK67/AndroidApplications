@@ -1,4 +1,4 @@
-package com.example.gk.calculatortry;
+package com.example.gk.calculator;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.example.gk.calculatortry;
+package com.example.gk.calculator;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -166,9 +166,9 @@ public class MainActivity extends AppCompatActivity {
                 if(calculated == true)
                     clear();
                 if(firstNumberFinish == false){
-                myTextView.append("+");
-                symbol = '+';
-                firstNumberFinish = true;
+                    myTextView.append("+");
+                    symbol = '+';
+                    firstNumberFinish = true;
                 }
                 else{
 
@@ -318,3 +318,4 @@ public class MainActivity extends AppCompatActivity {
         return returnAnswer;
     }
 }
+
