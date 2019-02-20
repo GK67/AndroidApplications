@@ -73,9 +73,13 @@
 
             android:text="=" />
         <Button
-            android:id="@+id/clear"
+        android:id="@+id/clear"
 
-            android:text="Clear" />
+        android:text="Clear" />
+        <Button
+            android:id="@+id/save"
+
+            android:text="Save" />
 
 
     </GridLayout>
@@ -88,22 +92,23 @@
 
         <TextView
 
+            android:id="@+id/textView"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:textSize="64dp"
-            android:padding="32dip"
-            android:id="@+id/textView"
             android:background="#FF8A11"
+            android:padding="32dip"
+            android:textSize="64dp"
 
             />
+
         <TextView
 
+            android:id="@+id/answerTextView"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:textSize="64dp"
             android:padding="32dip"
-            android:id="@+id/answerTextView"
             android:text="0"
+            android:textSize="64dp"
 
 
             />

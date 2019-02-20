@@ -1,13 +1,19 @@
 package com.example.gk.calculator;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 
 import org.w3c.dom.Text;
+
+import java.io.Serializable;
+
+import static android.provider.AlarmClock.EXTRA_MESSAGE;
 
 public class MainActivity extends AppCompatActivity {
     private Button buttonNumber1;
@@ -34,6 +40,10 @@ public class MainActivity extends AppCompatActivity {
     private char symbol = '\u0000';
     private TextView myTextView;
     private TextView answerTextView;
+    private Button buttonSave;
+    private String history ="";
+    public static final String EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE";
+    static final int PICK_CONTACT_REQUEST = 1;  // The request code
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -56,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
         ButtonClear = (Button) findViewById(R.id.clear);
         myTextView = (TextView) findViewById(R.id.textView);
         answerTextView = (TextView)findViewById(R.id.answerTextView);
+        buttonSave = (Button)findViewById(R.id.save);
 
         buttonNumber1.setOnClickListener(new View.OnClickListener(){
 
@@ -258,6 +269,15 @@ public class MainActivity extends AppCompatActivity {
                 clear();
             }
         });
+        buttonSave.setOnClickListener(new View.OnClickListener(){
+
+
+            @Override
+            public void onClick(View v) {
+                Save(v);
+
+            }
+        });
 
 
 
@@ -316,6 +336,33 @@ public class MainActivity extends AppCompatActivity {
         }
         returnAnswer =String.valueOf(answer);
         return returnAnswer;
+    }
+
+
+    public void Save(View view){
+        Intent intent = new Intent(this, DisplayMessageActivity.class);
+        String inputMessage = ""+ myTextView.getText();
+        String answerMessage = ""+ answerTextView.getText();
+
+        String message = (inputMessage+"="+answerMessage);
+        history = history+message+"\n";
+        intent.putExtra(EXTRA_MESSAGE, history);
+        startActivityForResult(intent, 1);
+    }
+    @Override
+    public void onActivityResult(int requestCode,int resultCode,Intent data){
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == 1) {
+            Log.d("STATE","here ");
+            if (resultCode == RESULT_OK) {
+                Log.d("STATE","here2 ");
+                Serializable tmp = data.getSerializableExtra(MainActivity.EXTRA_MESSAGE);
+                if (tmp != null)
+                    Log.d("STATE","here3 ");
+                    history = tmp.toString();
+                Log.d("STATE","history"+ tmp.toString());
+            }
+        }
     }
 }
 
