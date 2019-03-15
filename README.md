@@ -25,3 +25,19 @@ The first version of project just finished in few hours, and later on will expan
 
 ![alt text](https://github.com/GK67/AndroidApplications/blob/feature-branch/Calculator2.png?raw=true)
 
+
+The third project is team project, a dictionary android project.
+here is some pictures that shows how application looks like.
+
+![alt text](https://github.com/GK67/AndroidApplications/blob/feature-branch/Dictionary1.png?raw=true)
+
+![alt text](https://github.com/GK67/AndroidApplications/blob/feature-branch/Dictionary2.png?raw=true)
+
+![alt text](https://github.com/GK67/AndroidApplications/blob/feature-branch/Dictionary3.png?raw=true)
+
+![alt text](https://github.com/GK67/AndroidApplications/blob/feature-branch/Dictionary4.png?raw=true)
+
+![alt text](https://github.com/GK67/AndroidApplications/blob/feature-branch/Dictionary5.png?raw=true)
+
+![alt text](https://github.com/GK67/AndroidApplications/blob/feature-branch/Dictionary6.png?raw=true)
+![alt text](https://github.com/GK67/AndroidApplications/blob/feature-branch/Dictionary7.png?raw=true)
