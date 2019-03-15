@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Dictionary</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="play">Play</string>
+    <string name="select_study_topics">Select Study Topics</string>
+    <string name="previous_button">previous_button</string>
+    <string name="next_button">next_button</string>
+    <string name="previous">previous</string>
+    <string name="next">next</string>
+    <string name="quiz_style">Quiz Style</string>
+    <string name="enter_amount_of_questions">Enter amount of Questions</string>
+    <string name="select_study_fields">Select Study Fields</string>
+    <string name="select_study_topic">Select Study Topic</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="summary">Summary</string>
+    <string name="ok">OK</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="about_us">About Us</string>
+    <string name="medicine_name_textview">Medicine Name</string>
+    <string name="edit_your_note">Edit your note</string>
+    <string name="save_edit">Save Edit</string>
+    <string name="flip">Flip</string>
+
+
+</resources>
